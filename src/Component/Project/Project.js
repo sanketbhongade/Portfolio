@@ -25,7 +25,7 @@ const Project = () => {
 
               <div className='col-md-4'>
                 <div className='project-animated'>    
-                  <img className='img-animated' src={ProjetAnimation} alt='Not Found'/>
+                  <img className='img-animated' src={ProjetAnimation} alt='Not Foundd'/>
                 </div>
               </div>
           </div>
