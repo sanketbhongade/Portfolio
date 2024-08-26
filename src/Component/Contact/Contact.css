@@ -1,0 +1,200 @@
+
+.contact{
+    margin-top: 5rem;
+}
+
+.contact-info{
+    width: 32rem;
+    height: 30rem;
+    border-radius: 5%;
+    background-color: rgb(25, 22, 22);
+    text-decoration: none;
+}
+
+.contact-head1{
+    margin-top: 2rem;
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(22, 242, 132);
+}
+
+.contact-head2{
+    margin-top: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(85, 153, 119);
+}
+
+.name-text, .contact-text{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.name-text1, .contact-text1{
+    height: 40px;
+    padding: 15px;
+    color: rgb(253, 252, 252);
+    border: none;
+    background-color: rgb(61, 56, 56);
+}
+
+.sel-option{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    height: 40px;
+    width: 28.5rem;
+    border: none;
+    color: rgb(253, 252, 252);
+    background-color: rgb(61, 56, 56);
+}
+
+.text-area{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 28.5rem;
+    height: 40px;
+    padding: 15px;
+    border: 0px solid rgb(57, 55, 55);
+    color: rgb(253, 252, 252);
+    background-color: rgb(61, 56, 56);
+}
+
+.submitBtn{
+    margin-left: 15px;
+    margin-top: 20px;
+    color: white;
+}
+
+.contact-details{
+    margin-left: 15rem;
+    margin-top: 5rem;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(22, 242, 132);
+}
+
+.phone-no, .email-add, .address{
+    margin-top: 2rem;
+}
+
+.email-text, .phone-text, .add-text{
+    margin-left: 1rem;
+}
+
+@media screen and (max-width:1200px){
+    .contact-details{
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .contact-info{
+        margin-left: 5rem;
+        width: 50rem;
+        height: 39rem;
+    }
+    .contact-head1{
+        font-size: 50px;
+    }
+    .contact-head2{
+        font-size: 30px;
+    }
+    .name-text{
+        margin-top: 3rem;
+    }
+    .name-text1, .contact-text1{
+        width: 20rem;
+        height: 50px;
+        text-decoration: none;
+    }
+    ::placeholder{
+        color: rgb(177, 166, 152);
+        font-size: 18px;
+    }
+    .sel-option, .text-area{
+        margin-left: 2rem;
+        width: 45rem;
+        height: 50px;
+    }
+    .submitBtn{
+        margin-top: 3rem;
+        margin-left: 20rem;
+        width: 10rem;
+        height: 3rem;
+    }
+    .contact-details{
+        width: 80rem;
+        margin-left: 18rem;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .contact-info{
+        margin-left: 8rem;
+    }
+    .contact-details{
+        width: 20rem;
+        height: 10rem;
+        margin-top: 8rem;
+        margin-left: 10rem;
+        margin-bottom: 2rem;
+    }
+    .phone-no, .email-add, .address{
+        margin-top: 2rem;
+    }
+    .email-add{
+        margin: 0 0 0 0;
+        display: flex;
+    }
+    .email-text{
+        margin-left: 2rem;
+    }
+    .phone-text, .add-text{
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+    .sel-option, .text-area{
+        margin-left: 1rem;
+        width: 42rem;
+    }
+    .submitBtn{
+        margin-left: 16rem;
+    }
+}
+
+
+@media screen and (max-width:360px){
+    .contact-head1{
+        font-size: 25px;
+    }
+    .contact-head2{
+        font-size: 15px;
+    }
+    .contact-info{
+        margin-left: 15rem;
+        width: 30rem;
+        height: 36rem;
+    }
+    .name-text1,.contact-text1{
+        width: 10rem;
+    }
+    .sel-option, .text-area{
+        margin-left: 1px;
+        width: 20.5rem;
+    }
+    .submitBtn{
+        margin-top: 1rem;
+        margin-left: 5rem;
+    }
+    .contact-details{
+        margin-top: 5rem;
+        margin-left: 15rem;
+        width: 25rem;
+        font-size: 15px;
+    }
+    .email-text, .phone-text, .add-text{
+        margin-top: 8px;
+    }
+}

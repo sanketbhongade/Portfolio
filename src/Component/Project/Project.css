@@ -1,0 +1,102 @@
+
+.project-head{
+    margin-top: 8rem;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h3{
+    margin-top: 50px;
+    color: rgb(53, 173, 59);
+}
+
+.project{
+    border-bottom: 2px solid white;
+}
+
+.project-description{
+    margin-top: 2rem;
+    font-family: monospace;
+    color: rgb(139, 137, 137);
+}
+
+.project-lang{
+    color: rgb(16, 181, 93);
+}
+
+.project-animated{
+    margin-left: 15rem;
+    margin-top: 8rem;
+}
+
+@media screen and (max-width:1200){
+    .img-animated{
+        margin-left: 5rem;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .img-animated{
+        margin-top: 2rem;
+        width: 25rem;
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width:768px){ 
+    .project-info{
+        margin-right: 20rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project{
+        width: 25rem;
+        display: block;
+        justify-content: flex-start;
+
+    }
+    .project-head1{
+        font-size: 50px;
+    }
+    .project-head2{
+        font-size: 25px;
+    }
+    .project-animated{
+       display: none;
+    }
+}
+
+@media screen and (max-width:360px){
+    .project{
+        border-bottom: none;
+    }
+    .project-head1{
+        margin-top: 1rem;
+        padding-left: 10rem;
+        font-size: 40px;
+    }
+    .project-head2{
+        margin-top: 3rem;
+        padding-left: 10rem;
+        width: 100rem;
+        font-size: 25px;
+    }
+    .project-description{
+        padding-left: 10rem;
+        width: 45rem;
+        font-size: 20px;
+    }
+    .project-lang{
+        padding-left: 10rem;
+        width: 100rem;
+        font-size: 20px;
+    }
+    .img-animated{
+        display: none;
+    }
+    
+}

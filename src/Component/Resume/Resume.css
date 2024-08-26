@@ -1,0 +1,266 @@
+
+
+.button-class{
+    width: 30rem;
+    height: 20rem;
+    margin-top: 8rem;
+    border-radius: 10px;
+}
+
+.button{
+    width: 25rem;
+    height: 3rem;
+    color: gainsboro;
+    border: 2px solid rgb(32, 32, 32);
+    background-color: rgb(32, 32, 32);
+    text-decoration: none;
+}
+
+
+.button:focus{
+    color: black;
+    background-color: rgb(22, 242, 132);
+}
+
+.button.active{
+    background-color: rgb(22, 242, 132);
+    color: black;  
+}
+
+.display-content{
+    width: 30rem;
+    height: 20rem;
+    margin-left: 8rem;
+    margin-top: 5rem;
+    border-radius: 10px;
+}
+
+.experience-btn{
+    width: 30rem;
+    height: 10rem;
+}
+
+.exp-head{
+    color: white;
+}
+
+.exp-text{
+    width: max-content;
+    margin-top: 2rem;
+    color: white;
+}
+
+.edu-head{
+    color: white;
+}
+
+.edu-info{
+    width: 25rem;
+    height: 10rem;
+    margin-top: 4rem;
+    border: 2px solid rgb(54, 51, 51);
+    border-radius: 10px;
+    background-color: rgb(54, 51, 51);
+}
+
+.edu-head2{
+    width: max-content;
+    margin-top: 20px;
+    margin-left: 2rem;
+    color: white;
+    font-size: 20px;
+}
+
+.edu-year{
+    margin-left: 50px;
+    color: rgb(22, 242, 132);
+}
+
+.edu-name{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 18px;
+    color: white;
+}
+
+.card-img{
+    width: 15rem;
+    height: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills-head{
+    color: white;
+}
+
+.skills-img{
+    width: 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-text{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+.html-logo, .css-logo, .js-logo{
+    position: relative;
+    display: inline-block;
+}
+
+.bs-logo, .react-logo, .tailwind-logo{
+    position: relative;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /* background-color: rgba(0, 0, 0, 0.5); Semi-transparent black overlay */
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+}
+
+.img-text {
+    font-weight: 700;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+}
+
+.img.card:hover {
+    filter: blur(3px); /*Blur effect on hover */
+}
+
+.img.card:hover + .overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
+.img.card:hover + .overlay .img-text {
+    opacity: 1; /* Show text on hover */
+}
+
+.card-img2{
+    width: 15rem;
+    height: 10rem;
+    margin-left:0;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.about-head{
+    color: white;
+}
+
+.about-info{
+    color: rgb(162, 159, 159);
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.cont-no{
+    color: rgb(22, 242, 132);
+}
+
+.email{
+    margin-left: 2rem;
+    color: rgb(22, 242, 132);
+}
+
+.location{
+    margin-top: 2rem;
+    color: rgb(22, 242, 132);
+
+}
+
+@media screen and (max-width:1200px){
+    .exp-text{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .button{
+        width: 15rem;
+    }
+    .button-class{
+        width: 15rem;
+    }
+    .display-content{
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .resume-display{
+        flex-direction: row;
+        align-items: center;
+    }
+    .display-content{
+        margin-top: 1rem;
+        margin-left: 0;
+        padding-left: 15rem;
+    }
+    .html-logo, .css-logo, .js-logo{
+        position: relative;
+        display: inline-block;
+    }
+    
+    .bs-logo, .react-logo, .tailwind-logo{
+        position: relative;
+        display: inline-block;
+    }
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        color: white;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0; /* Initially hidden */
+        transition: opacity 0.3s ease;
+    }
+    .about-info, .about-info2{
+        width: 30rem;
+        
+    }
+}
+
+@media screen and (max-width:360px){
+    .button-class{
+        margin-left: 15rem;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .display-content{
+        margin-left: 0;
+    }
+    .about-info{
+        width: 30rem;
+    }
+    .about-info2{
+        width: 30rem;
+    }
+}
