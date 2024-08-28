@@ -20,11 +20,14 @@ const Home=()=>{
                                 HTML5 and Css3
                             </p>
                             <div className='icons text-center mt-3'>
-                                <button className='btn'>DOWNLOAD CV</button>
-                                <a href='https://linkedin.com/in/sanket-bhongade-a736b12b6' className='icons text-decoration-none me-3'>
+                                {/* <button className='btn'>DOWNLOAD CV</button> */}
+                                <a href='https://drive.google.com/file/d/1WIbewtgrESMDWMds0ka-dy9tUbZuO3sV/view?usp=drive_link' className='btn' target="_blank">
+                                    Download CV
+                                </a>
+                                <a href='https://linkedin.com/in/sanket-bhongade-a736b12b6' className='icons text-decoration-none me-3' target="_blank">
                                     <i className='bi bi-linkedin fs-2'></i>
                                 </a>
-                                <a href='https://github.com/sanketbhongade' className='icons text-decoration-none me-3'>
+                                <a href='https://github.com/sanketbhongade' className='icons text-decoration-none me-3' target="_blank">
                                     <i className='bi bi-github fs-2'></i>
                                 </a>
                             </div>

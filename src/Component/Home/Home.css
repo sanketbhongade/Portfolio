@@ -66,14 +66,12 @@ body{
     border-radius: 50%;
 } */
 
-
-
 .btn{
     margin-top: 60px;
+    padding-top: 8px;
     border: 2px solid rgb(22, 242, 132);
     border-radius: 30px;
     color: rgb(22, 242, 132);
-
 }
 
 .btn:hover{
