@@ -37,7 +37,7 @@ const Home=()=>{
 
                     <div className='col-md-5'>
                         <div className='img'>
-                            <img  className='img1' src={homeImage} alt='Not found'/>
+                            <img  className='img1 rotating-border' src={homeImage} alt='Not found'/>
                         </div>
 
                     </div>

@@ -55,16 +55,15 @@ body{
 
 
 .img1{
-    width: 25rem;
+    width: 20rem;
     height: 20rem;
     margin-top: 8rem;
     margin-left: 20rem;
-    border-radius: 5%;
+    padding: 10px;
+    border: 2px solid rgb(22, 242, 132);
+    border-radius: 50%;
 }
 
-/* .img .img1{
-    border-radius: 50%;
-} */
 
 .btn{
     margin-top: 60px;
