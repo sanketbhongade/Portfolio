@@ -61,7 +61,7 @@ const Resume = () => {
                                        <h4 className=" mt-2"> GloriaVita CraftTech Solution</h4>
                                     </p>
                                     <p className='exp-head'>
-                                        <h5 className='text mt-2 fontfamily3'>Frontend Developer Intern (07/2024 - Present)</h5>
+                                        <h5 className='text mt-2 fontfamily3'>Frontend Developer Intern (07/2024 - 10/2024)</h5>
                                     </p>
                                     <p className='text mt-1 w-100' style={{color:"gray"}}>
                                         Assisted in developing and optimizing responsive web applications using HTML, CSS, and JavaScript. Contributed
