@@ -61,13 +61,27 @@ const Resume = () => {
                                        <h4 className=" mt-2"> GloriaVita CraftTech Solution</h4>
                                     </p>
                                     <p className='exp-head'>
-                                        <h5 className='text mt-2 fontfamily3'>Frontend Developer Intern (07/2024 - 10/2024)</h5>
+                                        <h5 className='text mt-2 fontfamily3'>Frontend Developer Intern (July 2024 - October 2024)</h5>
                                     </p>
                                     <p className='text mt-1 w-100' style={{color:"gray"}}>
-                                        Assisted in developing and optimizing responsive web applications using HTML, CSS, and JavaScript. Contributed
-                                        to UI/UX design implementation and code reviews, and gained experience with frameworks like React.Js .
-                                        Collaborated with the development team to enhance website performance and ensure cross-browser
-                                        compatibility.
+                                    •Assisted in developing and optimizing responsive web applications using HTML, CSS, and JavaScript.<br/>
+                                    •Conntributed to UI/UX design implemented and code reviews, and gained experince with frameworks like React.Js.<br/>
+                                    •Collaborated with the development team to enhance website performance and ensure cross-broswer compatibility.
+                                    </p>
+                                    <p className='exp-text'> 
+                                        <h4 className='mt-2'>BitCode Technology Pvt Ltd, Pune</h4>
+                                    </p>
+                                    <p className='exp-head'>
+                                        <h5 className='text mt-2 fontfamily3'>Frontend Developer Training and Internship (January 2024 - July 2024)</h5>
+                                    </p>
+                                    <p className='text mt-1 w-100' style={{color:"gray"}}>
+                                    <b>Training:</b>
+                                    <br/>
+                                    Focused on React.js to build dynamic user interfaces, learning HTML, CSS, JavaScript, and responsive design. Gained experience with Git for version control.
+                                    <br/>
+                                    <b>Internship:</b>
+                                    <br/>
+                                    Worked on real-world projects, developing React components, integrating APIs, and managing state with Redux. Collaborated with teams to enhance user experience and improve coding practices.
                                     </p>
                                 </div>
                             </div>
@@ -78,10 +92,16 @@ const Resume = () => {
                                     <h3 className='edu-head'>Education</h3>
                                     <div className='edu-info'>
                                         <h2 className='edu-head2 fontfamily2'>Bachelor of Computer Application</h2>
-                                        <p className='edu-year'>2022</p>
-                                        <ul className='edu-name'>
-                                            <li>Sant Gadge Baba Amravati University</li>
-                                        </ul>
+                                        
+                                        <p className='edu-name mt-4'>
+                                            Sant Gadge Baba Amravati University
+                                        </p>
+                                        <p className='edu-year'>Passing Year: 2022</p>
+                                    </div>
+                                    <div className='edu-info'>
+                                        <h2 className='edu-head2 fountfamily2'>HSC</h2>
+                                        <p className='edu-name'>Adarsh Science, J.B Atrs and Birla Commerce College</p>
+                                        <p className='edu-year'>Passing Year: 2019</p>
                                     </div>
                                 </div>
                             </div>

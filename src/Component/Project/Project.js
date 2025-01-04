@@ -13,6 +13,7 @@ const Project = () => {
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aris-label="Slide 4"></button>
               </div>
               <div className="carousel-inner">
                 <div className="carousel-item active">
@@ -37,6 +38,15 @@ const Project = () => {
                   tasks efficiently. It features task creation, editing, and deletion, with a clean, user-friendly 
                   interface that ensures a seamless experience for organizing daily activities.</p>
                   <span className='project-lang'>React.Js, BootStrap, JavaScript, HTML & CSS</span>
+                </div>
+
+                <div className="carousel-item">
+                  <h5 className='text-center project-name'>Tic-Tac-Toe Game</h5>
+                  <p className='text-center description'>Tic-tac-toe is a game for two players where they take turns 
+                    marking a 3x3 grid with an X or an O. The player who gets three of their marks in a row, either 
+                    horizontally, vertically, or diagonally, wins. If the board is full and neither player has three marks 
+                    in a row, the game ends in a tie.</p>
+                  <span className='project-lang'>JavaScript, ES6, HTML & CSS</span>
                 </div>
               </div>
               <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">

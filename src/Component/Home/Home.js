@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css'
-import homeImage from "../../assests/image/myImage.jpg"
+import homeImage from "../../assests/image/avatarImg.jpg"
 
 
 const Home=()=>{
