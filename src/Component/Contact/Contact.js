@@ -6,11 +6,11 @@ const Contact = () => {
   
   return (
     <>
-      <div className='container'>
+      <div className='container mt-5'>
         <div className='contact'>
           <div className='row'>
             
-            <div className='col-md-6 contact-info'>
+            <div className='col-md-6 contact-info  mt-5'>
               <form >
                 <h4 className='contact-head1 text-center'>Let's work together</h4>
                 <h5 className='contact-head2 text-center'>Create an interactive web application</h5>

@@ -20,7 +20,7 @@ const Resume = () => {
     return (
         <>
         
-            <div className='container'>
+            <div className='container mt-5'>
                 <div className='row resume-display'>
                     <div className='col-md-5 button-class'>
                         <div>

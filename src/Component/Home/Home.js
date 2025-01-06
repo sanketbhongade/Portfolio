@@ -8,7 +8,7 @@ const Home=()=>{
         <>
            <div className="container">
                 <div className="home-main row">
-                    <div className="col-md-5 text mt-2">
+                    <div className="col-md-5 text mt-5">
                         <div className="text d-grid">
                             <h1 className="text1 text-center fontfamily2">Hello, I'm Sanket Bhongade</h1>
                             <h3 className="text2 text-center fontfamily3 mt-3">FRONTEND DEVELOPER</h3>

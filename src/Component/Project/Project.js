@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <>
       <div className='container'>
-        <h1 className='project-head'>Projects</h1>
+        <h1 className='project-head mt-5'>Projects</h1>
         <div className='row'>
           <div className='col-md-6 carousel-main'>
             <div id="carouselExampleCaptions" className="carousel slide">

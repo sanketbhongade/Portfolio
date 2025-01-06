@@ -4,9 +4,9 @@ import "./Services.css"
 const Services = () => {
   return (
     <>
-        <div className='container'>
+        <div className='container mt-2'>
             <div className='row service-row'>
-                <div className='row1 col-md-4'>
+                <div className='row1 col-md-4 '>
                     <div className='num'>01</div>
                     <h2 className='head-text mt-2'>Web Development</h2>
                     <p className='text'>I'm a skilled Frontend Developer with expertise in React.Js, JavaScript, HTML & CSS, BootStrap and Tailwind CSS.</p>

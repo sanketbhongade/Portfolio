@@ -12,16 +12,7 @@ const Navbar = () => {
     return (
         <nav className='navbar'>
             <div className='portfolio-navbar d-flex'>
-                <div className='navbar-brand'>
-                    <button
-                        className='menu-toggle'
-                        onClick={toggleMenu}
-                        aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
-                        aria-expanded={isMenuOpen}
-                    >
-                        ☰   {/* Hamburger Icon */}
-                    </button>
-                </div>
+              
                 <div className={`navbar-nav ${isMenuOpen ? 'open' : ''}`} aria-hidden={!isMenuOpen}>
                     <ul className="nav-items">
                         <li className='nav-list'>
@@ -40,6 +31,16 @@ const Navbar = () => {
                             <Link className='a' to='/contact' onClick={() => setIsMenuOpen(false)}>Contact</Link>
                         </li>
                     </ul>
+                </div>
+                <div className='navbar-brand'>
+                    <button
+                        className='menu-toggle'
+                        onClick={toggleMenu}
+                        aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
+                        aria-expanded={isMenuOpen}
+                    >
+                        ☰   {/* Hamburger Icon */}
+                    </button>
                 </div>
             </div>
         </nav>
